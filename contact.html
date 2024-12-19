@@ -169,7 +169,7 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
     // Initialize the map
-    const map = L.map('map').setView([12.44543,77.3900], 15); // CMRIT Bengaluru coordinates
+    const map = L.map('map').setView([12.44543,77.39008], 15); 
 
     // Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -178,7 +178,7 @@
     }).addTo(map);
 
     // Add a marker for the location
-    L.marker([12.934533, 77.619234]).addTo(map)
+    L.marker([12.44543,77.39008]).addTo(map)
       .bindPopup('Arisor Solutions pvt ltd')
       .openPopup();
   </script>
